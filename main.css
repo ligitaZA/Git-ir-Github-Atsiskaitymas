@@ -96,9 +96,15 @@ body {
   overflow: auto;
   background-color: rgba(63, 62, 62, 0.5);
 }
-h2 {
-  text-decoration: underline;
-  text-decoration-offset: 3px;
+
+#myModal .short-line{
+  width: 10%;
+  height: 2px;
+  background-color: rgb(124, 123, 123);
+  margin-bottom: 20px;
+}
+#myModal h2 {
+  margin-bottom: 18px;
 }
 .modal-content {
   position: relative;
@@ -124,7 +130,6 @@ h2 {
 
 .close:hover,
 .close:focus {
-
   color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
