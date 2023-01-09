@@ -83,3 +83,25 @@ body {
   padding: 15px 30px;
   width: 150px;
 }
+@media (max-width:720px) {
+  .horizontal-line {
+    width: 95%;
+  }
+  #header-part h1{
+    font-size: 30px;
+  }
+  #header-part p {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  #buttons-part .buttons {
+    flex-direction: column;
+  }
+  #buttons-part .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+  }
+}
