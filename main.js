@@ -1,3 +1,4 @@
+
 // pirmas 
 function firstModal() { 
   document.getElementById('myModal').style.display = 'block';
@@ -44,3 +45,4 @@ function closeFourthModal() {
   document.getElementById('contactModal').style.display = 'none';
   document.getElementById('display').style.display = 'block';
 }
+
