@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap');
+
 body {
   margin: 0;
   background-image: url('./images/bg.jpg');
@@ -31,9 +33,33 @@ body {
   height: 25px;
   width: 1px;
 }
-.icon .horizontal-line{
+.horizontal-line{
   background-color: white;
   width: 90%;
   margin: 0;
   height: 1px;
+}
+
+#header-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans JP';
+  letter-spacing: 5px;
+
+}
+#header-part h1{
+  font-size: 40px;
+}
+#header-part p {
+  margin: 0;
+}
+#header-part p span{
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+}
+#header-part span:nth-of-type(2){
+  color: rgb(0, 195, 255);
 }
