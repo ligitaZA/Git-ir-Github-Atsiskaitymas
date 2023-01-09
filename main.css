@@ -113,8 +113,8 @@ body {
   background-color: rgba(63, 62, 62, 0.5);
 }
 
-.short-line {
-  width: 20%;
+#myModal .short-line {
+  width: 10%;
   height: 2px;
   background-color: rgb(124, 123, 123);
   margin-bottom: 20px;
@@ -135,7 +135,7 @@ body {
   font-family: 'Noto Sans JP';
 }
 
-.modal-content img, video {
+.modal-content img {
   margin: auto;
   padding: 0;
   width: 100%;
@@ -183,7 +183,7 @@ body {
     width: 500px;
   }
   #myModal .short-line {
-    width: 25%;
+    width: 15%;
   }
   .close:hover, .close:focus{
     transform: none;
