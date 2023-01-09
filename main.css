@@ -113,8 +113,8 @@ body {
   background-color: rgba(63, 62, 62, 0.5);
 }
 
-#myModal .short-line {
-  width: 10%;
+.short-line {
+  width: 20%;
   height: 2px;
   background-color: rgb(124, 123, 123);
   margin-bottom: 20px;
