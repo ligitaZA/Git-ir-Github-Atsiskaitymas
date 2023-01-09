@@ -28,9 +28,9 @@ body {
   border-radius: 50%;
 }
 
-.icon .vertical-line {
+.vertical-line {
   background-color: white;
-  height: 25px;
+  height: 30px;
   width: 1px;
 }
 .horizontal-line{
@@ -62,4 +62,24 @@ body {
 }
 #header-part span:nth-of-type(2){
   color: rgb(0, 195, 255);
+}
+
+#buttons-part {
+  margin-top: 33.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#buttons-part .buttons {
+  display: flex;
+  justify-content: center;
+}
+#buttons-part .buttons button {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 15px 30px;
+  width: 150px;
 }
